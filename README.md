@@ -1,5 +1,5 @@
 # assignment : To verify the login functionality of the url: : https://www.saucedemo.com/index.html
-Exercise 1: Created Manual testcases and uploaded in the Github repository
+Exercise 1: Created Manual testcases and uploaded in the Github repository (SauceDemo.txt)
 
 Exercise 2: Created a Maven project and added relevant dependencies in pom.xml.   
 Added packages for BaseClass, PageObjects, TestCases, Utilites, Testdata.  
@@ -16,10 +16,16 @@ Ran testsuites in TestNG.xml and pom.xml in local system.
 Open GIT Bash Here in the workspace location (SauceDemo).   
 Executed following commands to attach the files in github repo:    
    git init     
-   git remote add origin "https://github.com/hardeepbusyqa/assignment.git"     
+   git remote add origin "https://github.com/jeetoSandhu/SauceDemo"     
    git status       
    git add -A        
    git commit -m "Added TC_001, TC_002, TC_005,TC_006,TC_008"      
    git status shown: On branch master          
     nothing to commit, working tree clean
 
+Eclipse Setup:
+- Download the project from git repository to your local machine
+- In Eclispe, go to File > Open Projects from File System
+- Browse to the local repo and select "Finish"
+- Refresh the project or do a clean Maven build
+- Run the project as specified in line number 15 above. 
